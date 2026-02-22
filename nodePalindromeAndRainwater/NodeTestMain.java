@@ -1,3 +1,4 @@
+package nodePalindromeAndRainwater;
 
 /**
  * In main, we need to:
@@ -27,15 +28,13 @@ public class NodeTestMain {
         //4. search for node with key = 2
         //   and search for nonexistent node
         if (Node.listSearch(head, 2) != null) {
-            System.out.print(Node.listSearch(head, 2) + " was found with key: ");
-            System.out.println(Node.listSearch(head, 2).key);
+            System.out.println(Node.listSearch(head, 2).key + " was found");
         } else {
             System.out.println("Node was not found");
         }
 
         if (Node.listSearch(head, 1) != null) {
-            System.out.print(Node.listSearch(head, 1) + " was found with key: ");
-            System.out.println(Node.listSearch(head, 1).key);
+            System.out.println(Node.listSearch(head, 1).key + " was found");
         } else {
             System.out.println("Node was not found");
         }
