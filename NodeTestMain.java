@@ -40,7 +40,7 @@ public class NodeTestMain {
             System.out.println("Node was not found");
         }
 
-        //5. delete a node
+        //5. delete a node (node 3)
         head = Node.listDelete(head, head.next.next);
 
         //6. print list to show deletion
@@ -130,10 +130,10 @@ class Node {
 
         while (currentNode.next != x) {
             currentNode = currentNode.next;
+        }
 
-            if (currentNode == x) {
-                currentNode.next = x.next;
-            }
+        if (currentNode.next == x) {
+            currentNode.next = x.next;
         }
 
         return head;
