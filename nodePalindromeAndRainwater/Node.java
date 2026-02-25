@@ -22,7 +22,7 @@ public class Node {
      */ 
     Node(int key) {
         this.key = key;
-        next = null;
+        this.next = null;
     }
 
     /**
@@ -31,7 +31,8 @@ public class Node {
      */
     static Node listInsert(Node head, Node x) {
         x.next = head;
-        return x;
+        head = x;
+        return head;
     }
 
     /**
@@ -76,9 +77,10 @@ public class Node {
             return head.next;
         }
 
+        //delete a node in the middle
         Node currentNode = head;
 
-        while (currentNode.next != x) {
+        while (currentNode.next != x && currentNode.next != null) {
             currentNode = currentNode.next;
         }
 

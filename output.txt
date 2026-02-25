@@ -1,0 +1,17 @@
+output for NodeTestMain:
+
+5 -> 4 -> 3 -> 2
+2 was found
+Node was not found
+Let's delete 3: 5 -> 4 -> 2
+
+
+output for PalindromeMain:
+
+Check the list if it's a palindrome: 
+1 -> 2 -> 3 -> 2 -> 1
+List is palindrome!
+
+
+output for RainwaterMain:
+
