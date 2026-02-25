@@ -23,12 +23,12 @@ public class PalindromeMain {
     }
 
     /**
-     * this method will first increment the "tail" node 
+     * This method will first increment the "tail" node 
      * starting from "head" node until it reaches the 
      * actual last node of the list. then, we recurse
      * back, checking every incremental "head" if their
      * key == "tail's" key. if they all match, the list
-     * is a palindrome. if not, it returns null
+     * is a palindrome. if not, it returns null.
      */
     static Node PalCheck(Node head, Node tail) {
         //first if

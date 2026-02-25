@@ -15,3 +15,4 @@ List is palindrome!
 
 output for RainwaterMain:
 
+Total amount of water accumulated: 26 units
